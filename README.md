@@ -29,7 +29,7 @@ The circuit has been made on Fritzing. [Here](/Circuit_Diagram.fzz) is the Fritz
 > - We have wired the clk of the rotary encoder to a 7414 Hex Schmitt Trigger IC because the signals from the encoders were noisy. This is not necessary and the clk of the encoder can be wired directly to the teensy if the rotary encoder works fine.
 > - Other than these connections, make sure to hook up a coin cell Li-Ion battery to the VBat pin right behind the SD card slot. This battery will be used to power the RTC even when the Teensy is switched off.
 
-## Deisgn of the Medication Box
+## Design of the Medication Box
 
 The medication box was designed in OnShape. The ```.stl``` files can be taken from [here](/Models). To edit the model, [here](https://cad.onshape.com/documents/3bb37c6f5c3fc5625ebe736c/w/5e6eef892a42bb9e06b4f36b/e/434df4fac0757aec08d6021b) is the link to the OnShape document.
 
